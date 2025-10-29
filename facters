@@ -1,0 +1,17 @@
+# facters
+
+x=int(input("enter the number:"))
+y=[]
+print("the facters of",x,"are")
+for i in range (i,x):
+    if x %1==0:
+        y.append(i)
+print(y)
+print("number of the facters:",len(y))
+n=int(input("enter n value:"))
+if n>len(y):
+  print("invalid")
+else:
+    print("first",n,"factors:")
+    for k in range (0,n):
+        print(y[k],end="")
