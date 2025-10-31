@@ -1,0 +1,13 @@
+# Function to generate Fibonacci sequence up to a given number of terms
+def fibonacci(n):
+    fib_sequence = []
+    a, b = 0, 1
+    for _ in range(n):
+        fib_sequence.append(a)
+        a, b = b, a + b
+    return fib_sequence
+
+terms = int(input("Enter the number of Fibonacci terms to generate: "))
+
+fib_seq = fibonacci(terms)
+print("Fibonacci sequence:", fib_seq)
