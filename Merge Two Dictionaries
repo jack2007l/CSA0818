@@ -1,0 +1,11 @@
+#Using the "|" Operator
+x={1:'x',2:'y'}
+y={3:'z',4:'r'}
+print(x|y)
+
+
+#Using the **
+
+x={1:'x',2:'y'}
+y={3:'z',4:'r'}
+print({**x,**y})
