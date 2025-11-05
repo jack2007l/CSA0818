@@ -1,0 +1,5 @@
+#string slicing
+string=("i am lazzy boy")
+print(string[2:11])
+print(string[:11])
+print(string[2:4])
