@@ -1,0 +1,6 @@
+#find the square and cube of the givan decimal numbers
+num=int(input("enter the number:"))
+num1=num**2
+print("the square of givan numbers are",num1)
+num2=num**3
+print("the cube of givan numbers are",num2)
